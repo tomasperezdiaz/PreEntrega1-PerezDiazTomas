@@ -6,11 +6,16 @@ const NavBar = () => {
     <div className="nave">
       <div className="container">
         <div className="row pt-1 pb-3">
-          <div className="col-md-1">
+          <div className="col-md-1 justify-content-center">
             <Logo />
           </div>
-          <div className="col-md-10 d-flex align-items-center mt-2">
+          <div className="col-md-10 d-flex align-items-center justify-content-center mt-2">
             <ul className="nav">
+            <li className="nav-item">
+                <a className="nav-link text-dark fs 5" href="#">
+                 Todos los productos
+                </a>
+              </li>
               <li className="nav-item">
                 <a className="nav-link text-dark fs 5" href="#">
                   Cerveza
