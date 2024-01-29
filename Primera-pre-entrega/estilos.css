@@ -6,4 +6,13 @@
   background-color: rgb(252, 250, 223);
 }
 
+.detalle {
+  list-style: none;
+  text-decoration: none;
+  color :black;
+  background-color: rgb(253, 251, 199);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
 
