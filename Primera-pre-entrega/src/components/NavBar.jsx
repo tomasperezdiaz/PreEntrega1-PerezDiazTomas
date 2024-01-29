@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import CartWidget from "./CartWidget";
 import Logo from "./Logo";
 
@@ -11,30 +12,50 @@ const NavBar = () => {
           </div>
           <div className="col-md-10 d-flex align-items-center justify-content-center mt-2">
             <ul className="nav">
-            <li className="nav-item">
-                <a className="nav-link text-dark fs 5" href="#">
-                 Todos los productos
-                </a>
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link text-dark fs 5"
+                  activeclassname="active"
+                  to={"/"}
+                >
+                  Todos los productos
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark fs 5" href="#">
+                <NavLink
+                  className="nav-link text-dark fs 5"
+                  activeclassname="active"
+                  to={"/category/cerveza"}
+                >
                   Cerveza
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark fs 5" href="#">
+                <NavLink
+                  className="nav-link text-dark fs 5"
+                  activeclassname="active"
+                  to={"/category/fernet"}
+                >
                   Fernet
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark fs 5" href="#">
+                <NavLink
+                  className="nav-link text-dark fs 5"
+                  activeclassname="active"
+                  to={"/category/vino"}
+                >
                   Vinos
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark fs 5" href="#">
+                <NavLink
+                  className="nav-link text-dark fs 5"
+                  activeclassname="active"
+                  to={"/category/bebidasblancas"}
+                >
                   Bebidas blancas
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
