@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import icono from "../assets/-beer_89775.png";
 
-const Logo = () => {
+const Logo = ( {ancho}) => {
   return (
     <Link to={"/"}>
-      <img src={icono} alt="cerveza" width={70} />
+      <img src={icono} alt="cerveza"  width={ancho} />
     </Link>
   );
 };

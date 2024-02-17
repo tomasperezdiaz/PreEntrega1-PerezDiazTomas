@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className="container">
         <div className="row pt-1 pb-3">
           <div className="col-md-1 justify-content-center">
-            <Logo />
+            <Logo ancho={70} />
           </div>
           <div className="col-md-10 d-flex align-items-center justify-content-center mt-2">
             <ul className="nav">
