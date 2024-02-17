@@ -4,7 +4,7 @@ import ItemListContainer from "./components/ItemListContainer";
 import NavBar from "./components/NavBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import  CartContextProvider  from "./context/CartContext";
-import Cart from "./components/cart";
+import Cart from "./components/Cart";
 import Footer from "./components/Footer";
 import CheckOut from "./components/CheckOut";
 
